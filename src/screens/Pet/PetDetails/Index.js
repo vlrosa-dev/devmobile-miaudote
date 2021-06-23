@@ -8,7 +8,7 @@ import styles from './Styles'
 
 import SwiperComponent from '../../../components/Pet/Swiper/Index'
 
-export default function PetDetails({ route }){
+export default function PetDetails(){
   
   const navigation = useNavigation();
 

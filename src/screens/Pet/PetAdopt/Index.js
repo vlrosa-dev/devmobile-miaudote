@@ -4,12 +4,12 @@ import { View, Text, TouchableOpacity, TextInput } from 'react-native';
 import styles from './Styles'
 
 export default function PetAdopt() {
- return (
-   <View style={styles.container}>
+  return (
+    <View style={styles.container}>
     <View style={styles.header}>
       <Text style={styles.headerTitle}> Falta pouco, precisamos de algumas informações. </Text>
     </View>
-   
+    
     <View style={styles.headerInfo}>
       <Text style={styles.info}> Sobre Você </Text>
     </View>
@@ -32,6 +32,6 @@ export default function PetAdopt() {
       </TouchableOpacity>
     </View>
     
-   </View>
+    </View>
   );
 }
