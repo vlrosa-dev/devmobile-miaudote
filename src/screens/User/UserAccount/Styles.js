@@ -53,6 +53,12 @@ const styles = StyleSheet.create({
       textDecorationLine: 'underline',
       fontSize: 16,
       color: 'red'
+    },
+
+    textDashboard: {
+      fontFamily: 'Montserrat_500Medium',
+      textDecorationLine: 'underline',
+      fontSize: 16
     }
   
 })

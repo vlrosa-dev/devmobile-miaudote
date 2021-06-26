@@ -61,7 +61,8 @@ const styles = StyleSheet.create({
 
     titleCards: {
         fontFamily: 'Montserrat_400Regular',
-        fontSize: 10
+        fontSize: 10,
+        color: '#fff'
     },
 })
 

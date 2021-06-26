@@ -1,10 +1,14 @@
 import React from 'react';
-import { View, Text, ScrollView, StyleSheet, Image, TouchableOpacity } from 'react-native';
+import { View, Text, ScrollView, Image, TouchableOpacity } from 'react-native';
 import { Icon } from 'react-native-elements';
+import { useNavigation } from '@react-navigation/native'
 
 import styles from './Styles';
 
 export default function UserAccount() {
+
+  const navigation = useNavigation();
+
  return (
     <ScrollView showsHorizontalScrollIndicator={false} style={{backgroundColor: '#fff'}}>
       <View style={styles.container}>
@@ -115,7 +119,7 @@ export default function UserAccount() {
 
             </View>
 
-            <View style={{marginTop: 20}}>
+            <View style={{marginTop: 10}}>
               <TouchableOpacity>
                 <Text style={styles.textExitAccount}> 
                   Sair da minha conta 
@@ -123,14 +127,21 @@ export default function UserAccount() {
               </TouchableOpacity>
             </View>
 
-            <View style={{marginTop: 20}}>
+            <View style={{marginTop: 10}}>
+              <TouchableOpacity onPress={() => {navigation.navigate('UserDashboard')}}>
+                <Text style={styles.textExcludeAccount}>
+                  Acessar Dashboard
+                </Text>
+              </TouchableOpacity>
+            </View>
+
+            <View style={{marginTop: 10}}>
               <TouchableOpacity>
                 <Text style={styles.textExcludeAccount}>
                   Excluir conta
                 </Text>
               </TouchableOpacity>
             </View>
-
         </View>    
       </View>
     </ScrollView>

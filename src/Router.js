@@ -14,7 +14,7 @@ import UserAccount from './screens/User/UserAccount/Index'
 import UserLogin from './screens/User/UserLogin/Index'
 import UserOptionsLogin from './screens/User/UserOptionsLogin/Index'
 import UserFormRegister from './screens/User/UserFormRegister/Index'
-import UserPerfil from './screens/User/UserPerfil/Index'
+import UserDashboard from './screens/User/UserDashboard/Index'
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -71,7 +71,9 @@ function Home(){
 function Routes() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="UserOptionsLogin">
+      <Stack.Navigator initialRouteName="UserOptionsLogin"
+        
+      >
         <Stack.Screen
           name="UserOptionsLogin"
           component={UserOptionsLogin}
@@ -86,6 +88,15 @@ function Routes() {
             headerShown: false
           }}
         />
+
+        <Stack.Screen
+          name="UserDashboard"
+          component={UserDashboard}
+          options={{
+            title: 'Miaudote'
+          }}
+        />  
+
         <Stack.Screen
           name="UserFormRegister"
           component={UserFormRegister}
@@ -97,7 +108,7 @@ function Routes() {
           name="Home" 
           component={Home} 
           options={{
-            title: 'Olá, Paty F.',
+            title: 'Miaudote',
             headerTitleStyle: {
               fontFamily: 'Montserrat_700Bold',
             },

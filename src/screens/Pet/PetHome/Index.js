@@ -35,7 +35,7 @@ export default function PetHome(){
         <PetCardBig
           cover={require('../../../assets/cardbig_cat01.jpg')}
           title="Polenta"
-          abrigo="Animais Felizes"
+          abrigo="Tia Lú"
           uf="Amazonas"
           sexo="Femea"
           caracteristica01="Apartamento"
@@ -161,42 +161,6 @@ export default function PetHome(){
           description="Polenta é plena, boazinha, carinhosa, amorosa e companheira."
         />
 
-        <PetCardSmall
-          cover={require('../../../assets/cardbig_cat03.jpg')}
-          name="Lindinha"
-          abrigo="Tia Lú"
-          uf="São Paulo"
-          sexo="Macho"
-          caracteristica01="Castrado"
-          caracteristica02="Quintal"
-          caracteristica03="Sociável"
-          weight="3"
-          age="10"
-          species="Cachorro"
-          breed="Vira-lata"
-          port="Pequeno"
-          location="Av. Luciano das Neves, Shop. VV, ES"
-          description="Polenta é plena, boazinha, carinhosa, amorosa e companheira."
-        />
-        
-        <PetCardSmall
-          cover={require('../../../assets/cardbig_cat03.jpg')}
-          name="Lindinha"
-          abrigo="Tia Lú"
-          uf="São Paulo"
-          sexo="Macho"
-          caracteristica01="Castrado"
-          caracteristica02="Quintal"
-          caracteristica03="Sociável"
-          weight="3"
-          age="10"
-          species="Cachorro"
-          breed="Vira-lata"
-          port="Pequeno"
-          location="Av. Luciano das Neves, Shop. VV, ES"
-          description="Polenta é plena, boazinha, carinhosa, amorosa e companheira."
-        />
-        
       </View>
 
     </ScrollView>
