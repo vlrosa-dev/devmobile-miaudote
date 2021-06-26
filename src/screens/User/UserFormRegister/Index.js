@@ -23,7 +23,7 @@ export default function App() {
         <StatusBar backgroundColor="#fff" translucent={false}/>
 
         <View style={styles.tittle}>
-          <Text style={styles.text}>Preencha as informações para efetuar o seu cadastro</Text>
+          <Text style={styles.text}>Cadastre-se</Text>
         </View>
 
         <View style={styles.inputCadastro}>
@@ -43,7 +43,7 @@ export default function App() {
           />
 
           <TextInput
-            placeholder="Endereço"
+            placeholder="Rua"
             style={styles.input}
           />
 

@@ -26,7 +26,7 @@ export default function LoginAuthentication() {
         <StatusBar backgroundColor="#fff" translucent={false}/>
 
         <View style={styles.tittle}>
-          <Text style={styles.loginTittle}>Fazer Login</Text>
+          <Text style={styles.loginTittle}> Login </Text>
         </View>
 
         <TextInput
@@ -50,7 +50,7 @@ export default function LoginAuthentication() {
 
         <View style={styles.forgotContainer}>
           <TouchableOpacity>
-            <Text style={styles.forgotText}>Esqueceu sua senha?</Text>
+            <Text style={styles.forgotText}>Esqueci minha senha</Text>
           </TouchableOpacity>
         </View>
 

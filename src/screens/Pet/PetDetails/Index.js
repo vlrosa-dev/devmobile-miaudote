@@ -15,7 +15,8 @@ export default function PetDetails({ route }){
   return(
     <ScrollView style={styles.container}>
       <View style={styles.swiperContent}>
-        <SwiperComponent/>
+        <SwiperComponent
+        />
       </View>
 
       <View style={styles.headerContent}>
@@ -37,7 +38,7 @@ export default function PetDetails({ route }){
           <Text style={styles.contentSubTitleInfo}> {route.params?.weight}KG </Text>
         </View> 
         <View style={{width: '30%'}}>
-          <Text style={styles.contentTitleInfo}> Idade Aproximada </Text>
+          <Text style={styles.contentTitleInfo}> Idade </Text>
           <Text style={styles.contentSubTitleInfo}> {route.params?.age} Anos </Text>
         </View> 
       </View>
@@ -82,7 +83,7 @@ export default function PetDetails({ route }){
           <TouchableOpacity
             onPress={() => {navigation.navigate('AdotarPet')}}
             style={styles.button}>
-            <Text style={styles.textButton}> Quero Adotar </Text>
+            <Text style={styles.textButton}> Adotar </Text>
           </TouchableOpacity>
         </View>
       </View>

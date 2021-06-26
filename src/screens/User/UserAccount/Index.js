@@ -41,49 +41,36 @@ export default function UserAccount() {
             />
           </View>
         
-          <View style={{width: '80%', marginTop: 10, marginLeft: 10}}>
+          <View style={{width: '80%', marginTop: 20, marginLeft: 10}}>
             <Text style={{fontFamily: 'Montserrat_700Bold', fontSize: 20}}> 
               Patty Farias 
             </Text>
-            <Text style={{fontFamily: 'Montserrat_400Regular', marginTop: 3, fontSize: 18}}> 
-              Membro desde setembro 2018 
-            </Text>
           </View>
-        </View>
-
-        <View style={styles.titleInfosHeader}>
-            <View style={{width: '30%', alignItems: 'center'}}>
-              <Text style={{fontFamily: 'Montserrat_700Bold', color: '#F660AB'}}> Informações </Text>
-            </View>
-            <View style={{width: '50%', alignItems: 'center'}}>
-              <Text style={{fontFamily: 'Montserrat_700Bold'}}> Solicitações Enviadas </Text>
-            </View>
-        </View>   
+        </View>  
 
         <View style={styles.formUser}>
-              
-            <View style={{width: '100%'}}>
-              <View style={{width: '80%', flexDirection: 'row'}}>
-                <View style={{width: '55%', alignItems: 'flex-start'}}>
-                  
-                  <Text style={{fontFamily: 'Montserrat_500Medium', fontSize: 16}}>Informações Pessoais</Text>
-               
+            <TouchableOpacity>
+              <View style={{width: '100%'}}>
+                <View style={{width: '80%', flexDirection: 'row'}}>
+                  <View style={{width: '55%', alignItems: 'flex-start'}}>
+                      <Text style={{fontFamily: 'Montserrat_500Medium', fontSize: 16, textDecorationLine: 'underline'}}>
+                        Informações Pessoais
+                      </Text>
+                  </View>
+                  <View style={{width: '10%', alignItems: 'flex-start'}}>   
+                    <Icon 
+                      name="caret-down" 
+                      type="ionicon" 
+                      color="black"
+                      style={{
+                        width: 20,
+                        height: 20
+                      }}
+                    />
+                  </View> 
                 </View>
-                <View style={{width: '10%', alignItems: 'flex-start'}}>   
-                  <Icon 
-                    name="caret-down" 
-                    type="ionicon" 
-                    color="black"
-                    style={{
-                      width: 20,
-                      height: 20
-                    }}
-                  />
-                
-                </View> 
               </View>
-            </View>
-
+            </TouchableOpacity>
             <View style={styles.contentForm}>
 
               <View style={styles.contentFields}>
@@ -102,7 +89,7 @@ export default function UserAccount() {
               </View>
 
               <View style={styles.contentFields}>
-                <Text style={styles.textTitle}> Endereço </Text>
+                <Text style={styles.textTitle}> Rua </Text>
                 <Text style={styles.textSubTitle}> Av. Desembargador Antônio José Miguel Feu Rosa </Text>
               </View>
               

@@ -21,7 +21,8 @@ export default function PetCardSmall(props){
           species: props.species,
           port: props.port,
           location: props.location,
-          description: props.description
+          description: props.description,
+          cover: props.cover
          })} 
         style={styles.container}>
         <View style={styles.content}>

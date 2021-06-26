@@ -28,7 +28,7 @@ export default function PetHome(){
       </View>
 
       <View>
-        <Text style={{paddingHorizontal: 15, fontFamily: 'Montserrat_700Bold'}}> Mais Relevantes </Text>
+        <Text style={{paddingHorizontal: 15, fontFamily: 'Montserrat_700Bold'}}> Destaques </Text>
       </View>
 
       <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{paddingHorizontal: 15}}>
@@ -53,7 +53,7 @@ export default function PetHome(){
         <PetCardBig
           cover={require('../../../assets/cardbig_cat02.jpg')}
           title="Zyra"
-          abrigo="Abrigo Tia Lú"
+          abrigo="Tia Lú"
           uf="São Paulo"
           sexo="Macho"
           caracteristica01="Desconhecidos"
@@ -71,12 +71,12 @@ export default function PetHome(){
         <PetCardBig
           cover={require('../../../assets/cardbig_cat03.jpg')}
           title="Lindinha"
-          abrigo="Abrigo Tia Lú"
+          abrigo="Tia Lú"
           uf="São Paulo"
           sexo="Macho"
           caracteristica01="Castrado"
           caracteristica02="Quintal"
-          caracteristica03="Sociavel"
+          caracteristica03="Sociável"
           weight="3"
           age="10"
           species="Cachorro"
@@ -91,7 +91,7 @@ export default function PetHome(){
       <View style={styles.content}>
         
         <View style={{flex: 2}}>
-          <Text style={{color: '#F660AB', fontFamily: 'Montserrat_700Bold'}}> Recem Cadastrados </Text>
+          <Text style={{color: '#F660AB', fontFamily: 'Montserrat_700Bold'}}> Recém Cadastrados </Text>
         </View>
         
         <View style={{flex: 1}}>
@@ -128,7 +128,7 @@ export default function PetHome(){
         <PetCardSmall
           cover={require('../../../assets/cardbig_cat02.jpg')}
           name="Zyra"
-          abrigo="Abrigo Tia Lú"
+          abrigo="Tia Lú"
           uf="São Paulo"
           sexo="Macho"
           caracteristica01="Desconhecidos"
@@ -146,12 +146,12 @@ export default function PetHome(){
         <PetCardSmall
           cover={require('../../../assets/cardbig_cat03.jpg')}
           name="Lindinha"
-          abrigo="Abrigo Tia Lú"
+          abrigo="Tia Lú"
           uf="São Paulo"
           sexo="Macho"
           caracteristica01="Castrado"
           caracteristica02="Quintal"
-          caracteristica03="Sociavel"
+          caracteristica03="Sociável"
           weight="3"
           age="10"
           species="Cachorro"
@@ -164,12 +164,12 @@ export default function PetHome(){
         <PetCardSmall
           cover={require('../../../assets/cardbig_cat03.jpg')}
           name="Lindinha"
-          abrigo="Abrigo Tia Lú"
+          abrigo="Tia Lú"
           uf="São Paulo"
           sexo="Macho"
           caracteristica01="Castrado"
           caracteristica02="Quintal"
-          caracteristica03="Sociavel"
+          caracteristica03="Sociável"
           weight="3"
           age="10"
           species="Cachorro"
@@ -182,12 +182,12 @@ export default function PetHome(){
         <PetCardSmall
           cover={require('../../../assets/cardbig_cat03.jpg')}
           name="Lindinha"
-          abrigo="Abrigo Tia Lú"
+          abrigo="Tia Lú"
           uf="São Paulo"
           sexo="Macho"
           caracteristica01="Castrado"
           caracteristica02="Quintal"
-          caracteristica03="Sociavel"
+          caracteristica03="Sociável"
           weight="3"
           age="10"
           species="Cachorro"

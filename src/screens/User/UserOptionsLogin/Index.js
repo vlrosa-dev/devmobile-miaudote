@@ -21,21 +21,21 @@ export default function OptionsLogin() {
       />
 
       <View>
-        <Text style={styles.welcomeText}>Bem vindo ao <Text style={styles.miauudote}>Miauudote</Text>, o maior aplicativo de adoção de pets</Text>
+        <Text style={styles.welcomeText}>Bem vindo ao <Text style={styles.miauudote}>Miauudote</Text></Text>
       </View>
 
       <TouchableOpacity 
         onPress={() => {navigation.navigate('UserFormRegister')}}
         style={styles.buttonNovo}
       >
-        <Text style={styles.buttonJaPossui}>Sou novo (a)</Text>
+        <Text style={styles.buttonJaPossui}>Cadastre-se</Text>
       </TouchableOpacity>
 
       <View style={styles.forgotContainer}>
         <TouchableOpacity
           onPress={() => {navigation.navigate('UserLogin')}}
         >
-          <Text style={styles.forgotText}>Já tenho Conta</Text>
+          <Text style={styles.forgotText}>Entrar</Text>
         </TouchableOpacity>
       </View>
 
