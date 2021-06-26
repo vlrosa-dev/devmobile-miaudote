@@ -8,7 +8,7 @@ import styles from './Styles'
 
 import SwiperComponent from '../../../components/Pet/Swiper/Index'
 
-export default function PetDetails(){
+export default function PetDetails({ route }){
   
   const navigation = useNavigation();
 
@@ -20,7 +20,7 @@ export default function PetDetails(){
 
       <View style={styles.headerContent}>
         <View style={{width: '65%'}}>
-          <Text style={styles.headerTitle}> Oi, eu sou Ricota... </Text>
+          <Text style={styles.headerTitle}> Oi, eu sou {route.params?.name}... </Text>
         </View> 
         <View style={{width: '35%'}}>
           <Icon
@@ -34,40 +34,40 @@ export default function PetDetails(){
       <View style={styles.content}>
         <View style={{width: '30%'}}>
           <Text style={styles.contentTitleInfo}> Peso </Text>
-          <Text style={styles.contentSubTitleInfo}> 3KG </Text>
+          <Text style={styles.contentSubTitleInfo}> {route.params?.weight}KG </Text>
         </View> 
         <View style={{width: '30%'}}>
           <Text style={styles.contentTitleInfo}> Idade Aproximada </Text>
-          <Text style={styles.contentSubTitleInfo}> 10 Anos </Text>
+          <Text style={styles.contentSubTitleInfo}> {route.params?.age} Anos </Text>
         </View> 
       </View>
 
       <View style={styles.content}>
         <View style={{width: '30%'}}>
           <Text style={styles.contentTitleInfo}> Espécie </Text>
-          <Text style={styles.contentSubTitleInfo}> Cachorro </Text>
+          <Text style={styles.contentSubTitleInfo}> {route.params?.species} </Text>
         </View> 
         <View style={{width: '30%'}}>
           <Text style={styles.contentTitleInfo}> Raça </Text>
-          <Text style={styles.contentSubTitleInfo}> Vira-Lata </Text>
+          <Text style={styles.contentSubTitleInfo}> {route.params?.breed} </Text>
         </View> 
         <View style={{width: '30%'}}>
           <Text style={styles.contentTitleInfo}> Porte </Text>
-          <Text style={styles.contentSubTitleInfo}> Pequeno </Text>
+          <Text style={styles.contentSubTitleInfo}> {route.params?.port} </Text>
         </View>
       </View>
 
       <View style={styles.content}>
         <View style={{width: '100%'}}>
           <Text style={styles.contentTitleInfo}> Local </Text>
-          <Text style={styles.contentSubTitleInfo}> Av. Luciano das Neves, Shop. VV, ES </Text>
+          <Text style={styles.contentSubTitleInfo}> {route.params?.location} </Text>
         </View> 
       </View>
 
       <View style={styles.content}>
         <View style={{width: '100%'}}>
           <Text style={styles.contentTitleInfo}> Sobre </Text>
-          <Text style={styles.contentSubTitleInfo}> Ricota é plena, boazinha, carinhosa, amorosa e companheira. </Text>
+          <Text style={styles.contentSubTitleInfo}> {route.params?.description} </Text>
         </View> 
       </View>
 

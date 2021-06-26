@@ -12,14 +12,21 @@ export default function PetFavorites(){
         <Text style={styles.titleFavorites}> Favoritos </Text>
 
         <PetCardSmall
-          cover={require('../../../assets/cardbig_cat01.jpg')}
-          name="Polenta"
-          abrigo="Animais Felizes"
-          uf="Espirito Santo"
-          sexo="Femea"
-          caracteristica01="Apartamento"
-          caracteristica02="Vermifugado"
-          caracteristica03="Crianças"
+          cover={require('../../../assets/cardbig_cat02.jpg')}
+          name="Zyra"
+          abrigo="Abrigo Tia Lú"
+          uf="São Paulo"
+          sexo="Macho"
+          caracteristica01="Desconhecidos"
+          caracteristica02="Vacinado"
+          caracteristica03="Dócil"
+          weight="3"
+          age="10"
+          species="Cachorro"
+          breed="Vira-lata"
+          port="Pequeno"
+          location="Av. Luciano das Neves, Shop. VV, ES"
+          description="Polenta é plena, boazinha, carinhosa, amorosa e companheira."
         />
 
         <PetCardSmall
@@ -31,17 +38,49 @@ export default function PetFavorites(){
           caracteristica01="Desconhecidos"
           caracteristica02="Vacinado"
           caracteristica03="Dócil"
+          weight="3"
+          age="10"
+          species="Cachorro"
+          breed="Vira-lata"
+          port="Pequeno"
+          location="Av. Luciano das Neves, Shop. VV, ES"
+          description="Polenta é plena, boazinha, carinhosa, amorosa e companheira."
         />
         
         <PetCardSmall
-          cover={require('../../../assets/cardbig_cat03.jpg')}
-          name="Lindinha"
+          cover={require('../../../assets/cardbig_cat02.jpg')}
+          name="Zyra"
           abrigo="Abrigo Tia Lú"
           uf="São Paulo"
           sexo="Macho"
-          caracteristica01="Castrado"
-          caracteristica02="Quintal"
-          caracteristica03="Sociavel"
+          caracteristica01="Desconhecidos"
+          caracteristica02="Vacinado"
+          caracteristica03="Dócil"
+          weight="3"
+          age="10"
+          species="Cachorro"
+          breed="Vira-lata"
+          port="Pequeno"
+          location="Av. Luciano das Neves, Shop. VV, ES"
+          description="Polenta é plena, boazinha, carinhosa, amorosa e companheira."
+        />
+
+        <PetCardSmall
+          cover={require('../../../assets/cardbig_cat02.jpg')}
+          name="Zyra"
+          abrigo="Abrigo Tia Lú"
+          uf="São Paulo"
+          sexo="Macho"
+          caracteristica01="Desconhecidos"
+          caracteristica02="Vacinado"
+          caracteristica03="Dócil"
+          weight="3"
+          age="10"
+          species="Cachorro"
+          breed="Vira-lata"
+          port="Pequeno"
+          location="Av. Luciano das Neves, Shop. VV, ES"
+          description="Polenta é plena, boazinha, carinhosa, amorosa e companheira."
         />
         
       </View>

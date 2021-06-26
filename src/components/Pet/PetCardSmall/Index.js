@@ -11,15 +11,17 @@ export default function PetCardSmall(props){
   
   return(
     
-    <TouchableOpacity 
+    <TouchableOpacity
         onPress={() => navigation.navigate('PetDetails',
         {
           name: props.name,
-          weight: 3,
-          age: 10,
-          breed: 'Vira-Lata',
-          species: 'Cachorro',
-          porte: 'Pequeno'
+          weight: props.weight,
+          age: props.age,
+          breed: props.breed,
+          species: props.species,
+          port: props.port,
+          location: props.location,
+          description: props.description
          })} 
         style={styles.container}>
         <View style={styles.content}>

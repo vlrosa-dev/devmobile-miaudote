@@ -14,6 +14,7 @@ import UserAccount from './screens/User/UserAccount/Index'
 import UserLogin from './screens/User/UserLogin/Index'
 import UserOptionsLogin from './screens/User/UserOptionsLogin/Index'
 import UserFormRegister from './screens/User/UserFormRegister/Index'
+import UserPerfil from './screens/User/UserPerfil/Index'
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -58,9 +59,9 @@ function Home(){
             name="Perfil" 
             component={UserAccount} 
             options={{
-            tabBarIcon: ({ color, size }) => (
-            <Icon name='person-outline' type="ionicon" color={color} size={23} />
-            )
+              tabBarIcon: ({ color, size }) => (
+              <Icon name='person-outline' type="ionicon" color={color} size={23} />
+            ),
             }}
         />
     </Tab.Navigator>
@@ -122,6 +123,7 @@ function Routes() {
             }
           }}
         />
+        
         <Stack.Screen
           name="AdotarPet"
           component={PetAdopt}

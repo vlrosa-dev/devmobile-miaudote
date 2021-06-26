@@ -34,26 +34,56 @@ export default function PetHome(){
       <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{paddingHorizontal: 15}}>
         <PetCardBig
           cover={require('../../../assets/cardbig_cat01.jpg')}
-          title={"Madruga"}
-          abrigo={"Abrigo Tia Lú"}
-          uf={"ES"}
-          sexo={"Macho"}
+          title="Polenta"
+          abrigo="Animais Felizes"
+          uf="Amazonas"
+          sexo="Femea"
+          caracteristica01="Apartamento"
+          caracteristica02="Vermifugado"
+          caracteristica03="Crianças"
+          weight="3"
+          age="10"
+          species="Cachorro"
+          breed="Vira-lata"
+          port="Pequeno"
+          location="Av. Luciano das Neves, Shop. VV, ES"
+          description="Polenta é plena, boazinha, carinhosa, amorosa e companheira."
         />
 
         <PetCardBig
           cover={require('../../../assets/cardbig_cat02.jpg')}
-          title={"Ricota"}
-          abrigo={"Abrigo Ciranda"}
-          uf={"TO"}
-          sexo={"Femêa"}
+          title="Zyra"
+          abrigo="Abrigo Tia Lú"
+          uf="São Paulo"
+          sexo="Macho"
+          caracteristica01="Desconhecidos"
+          caracteristica02="Vacinado"
+          caracteristica03="Dócil"
+          weight="3"
+          age="10"
+          species="Cachorro"
+          breed="Vira-lata"
+          port="Pequeno"
+          location="Av. Luciano das Neves, Shop. VV, ES"
+          description="Polenta é plena, boazinha, carinhosa, amorosa e companheira."
         />
 
         <PetCardBig
           cover={require('../../../assets/cardbig_cat03.jpg')}
-          title={"Paçoca"}
-          abrigo={"Abrigo PetFeliz"}
-          uf={"SP"}
-          sexo={"Macho"}
+          title="Lindinha"
+          abrigo="Abrigo Tia Lú"
+          uf="São Paulo"
+          sexo="Macho"
+          caracteristica01="Castrado"
+          caracteristica02="Quintal"
+          caracteristica03="Sociavel"
+          weight="3"
+          age="10"
+          species="Cachorro"
+          breed="Vira-lata"
+          port="Pequeno"
+          location="Av. Luciano das Neves, Shop. VV, ES"
+          description="Polenta é plena, boazinha, carinhosa, amorosa e companheira."
         />
         
       </ScrollView>
@@ -87,6 +117,13 @@ export default function PetHome(){
           caracteristica01="Apartamento"
           caracteristica02="Vermifugado"
           caracteristica03="Crianças"
+          weight="3"
+          age="10"
+          species="Cachorro"
+          breed="Vira-lata"
+          port="Pequeno"
+          location="Av. Luciano das Neves, Shop. VV, ES"
+          description="Polenta é plena, boazinha, carinhosa, amorosa e companheira."
         />
         <PetCardSmall
           cover={require('../../../assets/cardbig_cat02.jpg')}
@@ -97,6 +134,13 @@ export default function PetHome(){
           caracteristica01="Desconhecidos"
           caracteristica02="Vacinado"
           caracteristica03="Dócil"
+          weight="3"
+          age="10"
+          species="Cachorro"
+          breed="Vira-lata"
+          port="Pequeno"
+          location="Av. Luciano das Neves, Shop. VV, ES"
+          description="Polenta é plena, boazinha, carinhosa, amorosa e companheira."
         />
         
         <PetCardSmall
@@ -108,7 +152,51 @@ export default function PetHome(){
           caracteristica01="Castrado"
           caracteristica02="Quintal"
           caracteristica03="Sociavel"
+          weight="3"
+          age="10"
+          species="Cachorro"
+          breed="Vira-lata"
+          port="Pequeno"
+          location="Av. Luciano das Neves, Shop. VV, ES"
+          description="Polenta é plena, boazinha, carinhosa, amorosa e companheira."
         />
+
+        <PetCardSmall
+          cover={require('../../../assets/cardbig_cat03.jpg')}
+          name="Lindinha"
+          abrigo="Abrigo Tia Lú"
+          uf="São Paulo"
+          sexo="Macho"
+          caracteristica01="Castrado"
+          caracteristica02="Quintal"
+          caracteristica03="Sociavel"
+          weight="3"
+          age="10"
+          species="Cachorro"
+          breed="Vira-lata"
+          port="Pequeno"
+          location="Av. Luciano das Neves, Shop. VV, ES"
+          description="Polenta é plena, boazinha, carinhosa, amorosa e companheira."
+        />
+        
+        <PetCardSmall
+          cover={require('../../../assets/cardbig_cat03.jpg')}
+          name="Lindinha"
+          abrigo="Abrigo Tia Lú"
+          uf="São Paulo"
+          sexo="Macho"
+          caracteristica01="Castrado"
+          caracteristica02="Quintal"
+          caracteristica03="Sociavel"
+          weight="3"
+          age="10"
+          species="Cachorro"
+          breed="Vira-lata"
+          port="Pequeno"
+          location="Av. Luciano das Neves, Shop. VV, ES"
+          description="Polenta é plena, boazinha, carinhosa, amorosa e companheira."
+        />
+        
       </View>
 
     </ScrollView>

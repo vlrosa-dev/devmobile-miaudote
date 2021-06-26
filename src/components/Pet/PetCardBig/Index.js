@@ -2,13 +2,27 @@ import React from 'react'
 import { View, Text, Image } from 'react-native'
 import { TouchableOpacity } from 'react-native-gesture-handler'
 import { Icon } from 'react-native-elements'
+import { useNavigation } from '@react-navigation/native'
 
 import styles from './Styles'
 
 export default function PetCardBig(props){
 
+    const navigation = useNavigation()
+
     return(
-      <TouchableOpacity onPress={() => {}} style={styles.container}>
+      <TouchableOpacity onPress={() => {navigation.navigate('PetDetails',
+      {
+        name: props.title,
+        weight: props.weight,
+        age: props.age,
+        breed: props.breed,
+        species: props.species,
+        port: props.port,
+        location: props.location,
+        description: props.description
+
+      })}} style={styles.container}>
         
         <Image
           source={props.cover}
