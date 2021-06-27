@@ -9,7 +9,9 @@ export default function UserDashboard() {
       showsVerticalScrollIndicator={false} 
       style={{paddingHorizontal: 15, flex: 1, backgroundColor: '#fff'}}
     >
-      
+      <View style={styles.headerTitle}>
+        <Text style={styles.textHeaderTitle}> Dados Informativos </Text>
+      </View>
       <View style={styles.container}>
         <View style={styles.content}>
           <View style={{width: '100%', marginRight: 40}}>

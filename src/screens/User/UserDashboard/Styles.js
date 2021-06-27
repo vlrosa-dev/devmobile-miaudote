@@ -1,13 +1,23 @@
 import { StyleSheet } from 'react-native'
 
 const styles = StyleSheet.create({
+
+    headerTitle: {
+      marginTop: 20
+    },
+
+    textHeaderTitle: {
+      fontFamily: 'Montserrat_700Bold',
+      fontSize: 22,
+    },
+
     container: {
       marginTop: 20,
       backgroundColor: '#F660AB',
       height: 150,
       width: '100%',
       elevation: 2,
-      borderRadius: 10,
+      borderRadius: 5,
       marginRight: 30,
       marginLeft: 2,
       marginBottom: 5,

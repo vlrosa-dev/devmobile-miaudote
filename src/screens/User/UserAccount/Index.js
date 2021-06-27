@@ -20,7 +20,10 @@ export default function UserAccount() {
             </Text>
           </View>
           <View style={{width: '20%', alignItems: 'flex-end'}}>
-              <TouchableOpacity style={{marginTop: 20}}>
+              <TouchableOpacity 
+                onPress={() => {navigation.navigate('UserLocale')}}
+                style={{marginTop: 24}}
+              >
                 <Image 
                   source={require('../../../assets/icon_brasil.png')}
                   style={{
@@ -118,19 +121,19 @@ export default function UserAccount() {
               </View>
 
             </View>
-
-            <View style={{marginTop: 10}}>
-              <TouchableOpacity>
-                <Text style={styles.textExitAccount}> 
-                  Sair da minha conta 
-                </Text>
-              </TouchableOpacity>
-            </View>
-
+            
             <View style={{marginTop: 10}}>
               <TouchableOpacity onPress={() => {navigation.navigate('UserDashboard')}}>
                 <Text style={styles.textDashboard}>
                   Acessar Dashboard
+                </Text>
+              </TouchableOpacity>
+            </View>
+            
+            <View style={{marginTop: 10}}>
+              <TouchableOpacity>
+                <Text style={styles.textExitAccount}> 
+                  Sair da minha conta 
                 </Text>
               </TouchableOpacity>
             </View>

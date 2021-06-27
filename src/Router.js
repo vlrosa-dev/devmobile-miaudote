@@ -15,6 +15,7 @@ import UserLogin from './screens/User/UserLogin/Index'
 import UserOptionsLogin from './screens/User/UserOptionsLogin/Index'
 import UserFormRegister from './screens/User/UserFormRegister/Index'
 import UserDashboard from './screens/User/UserDashboard/Index'
+import UserLocale from './screens/User/UserLocale/Index';
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -72,7 +73,6 @@ function Routes() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="UserOptionsLogin"
-        
       >
         <Stack.Screen
           name="UserOptionsLogin"
@@ -101,7 +101,18 @@ function Routes() {
               fontFamily: 'Montserrat_700Bold',
             },
           }}
-        />  
+        />
+        
+        <Stack.Screen
+          name="UserLocale"
+          component={UserLocale}
+          options={{
+            title: 'Miaudote',
+            headerTitleStyle: {
+              fontFamily: 'Montserrat_700Bold',
+            },
+          }}
+        />
 
         <Stack.Screen
           name="UserFormRegister"

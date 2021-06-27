@@ -45,7 +45,8 @@ const styles = StyleSheet.create({
     textExitAccount: {
       fontFamily: 'Montserrat_500Medium',
       textDecorationLine: 'underline',
-      fontSize: 16
+      fontSize: 16,
+      color: 'black'
     },
   
     textExcludeAccount: {
