@@ -85,7 +85,10 @@ function Routes() {
           name="UserLogin"
           component={UserLogin}
           options={{
-            headerShown: false
+            title: 'Miaudote',
+            headerTitleStyle: {
+              fontFamily: 'Montserrat_700Bold',
+            },
           }}
         />
 
@@ -93,7 +96,10 @@ function Routes() {
           name="UserDashboard"
           component={UserDashboard}
           options={{
-            title: 'Miaudote'
+            title: 'Miaudote',
+            headerTitleStyle: {
+              fontFamily: 'Montserrat_700Bold',
+            },
           }}
         />  
 
@@ -101,7 +107,10 @@ function Routes() {
           name="UserFormRegister"
           component={UserFormRegister}
           options={{
-            headerShown: false
+            title: 'Miaudote',
+            headerTitleStyle: {
+              fontFamily: 'Montserrat_700Bold',
+            },
           }}
         />
         <Stack.Screen 
@@ -112,15 +121,6 @@ function Routes() {
             headerTitleStyle: {
               fontFamily: 'Montserrat_700Bold',
             },
-            headerRight: () => (
-              <TouchableOpacity style={{ marginRight: 15 }}>
-                <Icon 
-                  name="paw-outline" 
-                  type="ionicon" 
-                  color="black"
-                />
-              </TouchableOpacity>
-            ),
           }}
         />
 

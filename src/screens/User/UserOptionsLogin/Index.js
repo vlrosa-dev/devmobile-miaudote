@@ -11,10 +11,10 @@ export default function OptionsLogin() {
   const navigation = useNavigation();
 
   return (
+
     <View style={styles.container}>
 
       <StatusBar translucent={false}/>
-
       <Image
         source={require('../../../assets/logo_miaudote.png')}
         style={styles.logo}
@@ -40,7 +40,7 @@ export default function OptionsLogin() {
       </View>
 
       <View style={styles.divisor}>
-        <Text>OU</Text>
+        <Text style={{fontFamily: 'Montserrat_500Medium'}}>OU</Text>
       </View>
 
       <TouchableOpacity style={styles.facebookButton}>
@@ -57,5 +57,6 @@ export default function OptionsLogin() {
       </TouchableOpacity>
 
     </View>
+
   );
 }

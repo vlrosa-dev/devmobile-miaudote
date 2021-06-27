@@ -129,7 +129,7 @@ export default function UserAccount() {
 
             <View style={{marginTop: 10}}>
               <TouchableOpacity onPress={() => {navigation.navigate('UserDashboard')}}>
-                <Text style={styles.textExcludeAccount}>
+                <Text style={styles.textDashboard}>
                   Acessar Dashboard
                 </Text>
               </TouchableOpacity>

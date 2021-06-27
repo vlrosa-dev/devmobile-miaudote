@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
     },
   
     headerTitle: {
-        fontFamily: 'Montserrat_700Bold',
+        fontFamily: 'Montserrat_500Medium',
         fontSize: 22
     },
   
@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     },
   
     info: {
-        fontFamily: 'Montserrat_500Medium',
+        fontFamily: 'Montserrat_700Bold',
         fontSize: 16,
         color: '#313131'
     },
@@ -31,7 +31,8 @@ const styles = StyleSheet.create({
         padding: 8,
         borderRadius: 5,
         borderWidth: 1,
-        borderColor: '#e0e0e0'    
+        borderColor: '#e0e0e0',
+        fontFamily: 'Montserrat_500Medium'    
     },
   
     button: {

@@ -9,11 +9,12 @@ const styles = StyleSheet.create({
     },
     tittle:{
         alignItems: 'flex-start',
+        marginTop: '60%'
     },
     loginTittle: {
         fontSize: 35,
-        marginTop: Platform.OS === 'android' ? '13%' : '20%',
-        marginBottom: Platform.OS === 'android' ? '13%' : '15%'
+        fontFamily: 'Montserrat_700Bold',
+        marginBottom: 30,
     },
     input: {
         width: '90%',
@@ -22,7 +23,8 @@ const styles = StyleSheet.create({
         padding: 8,
         borderRadius: 5,
         borderWidth: 1,
-        borderColor: '#e0e0e0'    
+        borderColor: '#e0e0e0',
+        fontFamily: 'Montserrat_500Medium'    
     },
     inputArea: {
         flexDirection: 'row',
@@ -48,20 +50,22 @@ const styles = StyleSheet.create({
     },
     forgotText: {
         marginTop: 10,
-        color: '#696969'
+        color: '#696969',
+        fontFamily: 'Montserrat_500Medium'
     },
     loginButton: {
         marginTop: '70%',
         backgroundColor: '#f660ab',
         width: '90%',
-        height: 42,
+        height: 60,
         justifyContent: 'center',
         alignItems: 'center',
         borderRadius: 5
     },
     loginText: {
         color: '#fff',
-        fontSize: 17
+        fontFamily: 'Montserrat_700Bold',
+        fontSize: 22
     },
     inputPass: {
         width: '90%',
@@ -71,7 +75,8 @@ const styles = StyleSheet.create({
         borderRadius: 5,
         borderTopRightRadius: 0,
         borderColor: '#e0e0e0',
-        borderBottomRightRadius: 0
+        borderBottomRightRadius: 0,
+        fontFamily: 'Montserrat_500Medium'
         }
   });
 

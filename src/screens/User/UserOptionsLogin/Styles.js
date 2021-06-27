@@ -16,6 +16,7 @@ const styles = StyleSheet.create({
     welcomeText: {
       textAlign: 'center',
       fontSize: 18,
+      fontFamily: 'Montserrat_500Medium'
     },
     miauudote: {
       fontWeight: 'bold',
@@ -28,20 +29,30 @@ const styles = StyleSheet.create({
       height: 42,
       justifyContent: 'center',
       alignItems: 'center',
-      borderRadius: 5
+      borderRadius: 20,
     },
+
     buttonJaPossui: {
       color: '#fff',
-      fontWeight: 'bold'
+      fontSize: 18,
+      fontFamily: 'Montserrat_700Bold'
     },
+    
+    forgotContainer: {
+      marginTop: 20
+    },
+
     forgotText: {
       marginTop: '15%',
-      fontWeight: 'bold'
+      fontSize: 16,
+      fontFamily: 'Montserrat_700Bold'
     },
+
     divisor: {
       margin: '10%',
       alignItems: 'center',
     },
+
     facebookButton: {
       flexDirection: 'row',
       alignItems: 'center',
@@ -49,16 +60,20 @@ const styles = StyleSheet.create({
     },
     facebookText: {
       paddingLeft: 8,
-      fontSize: 15
+      fontSize: 15,
+      fontFamily: 'Montserrat_500Medium'
     },
+
     googleButton: {
       flexDirection: 'row',
       alignItems: 'center',
       marginTop: '3%'
     },
+
     googleText: {
       paddingLeft: 8,
-      fontSize: 15
+      fontSize: 15,
+      fontFamily: 'Montserrat_500Medium'
     },
 });
 

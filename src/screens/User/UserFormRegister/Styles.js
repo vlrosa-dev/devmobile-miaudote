@@ -3,15 +3,15 @@ import { StyleSheet } from 'react-native'
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      fontFamily: 'montserrat',
       justifyContent: 'center',
       paddingLeft: 22,
-      padding: 3
+      padding: 3,
+      marginTop: 15
     },
     text: {
-      fontWeight: 'bold',
       fontSize: 22,
-      marginBottom: '5%'
+      marginBottom: '5%',
+      fontFamily: 'Montserrat_700Bold'
     },
     input: {
       width: '90%',
@@ -20,7 +20,8 @@ const styles = StyleSheet.create({
       borderRadius: 5,
       borderWidth: 1,
       borderColor: '#e0e0e0' ,
-      padding: 5
+      padding: 5,
+      fontFamily: 'Montserrat_500Medium'
     },
     inputArea: {
       flexDirection: 'row',
@@ -29,7 +30,6 @@ const styles = StyleSheet.create({
       height: 42,
       alignItems: 'center',
       marginTop: '5%',
-  
     },
     icon: {
       width: '10%',
@@ -53,19 +53,21 @@ const styles = StyleSheet.create({
       borderBottomRightRadius: 0,
       padding: 5,
       marginBottom: 20,
+      fontFamily: 'Montserrat_500Medium'
     },
     buttonEntrar: {
-      marginTop: '3%',
+      marginTop: '5%',
       backgroundColor: '#f660ab',
       width: '90%',
-      height: 35,
+      height: 50,
       justifyContent: 'center',
       alignItems: 'center',
-      borderRadius: 5    
+      borderRadius: 5,
     },
     loginText: {
       color: '#fff',
-      fontSize: 17    
+      fontSize: 17,
+      fontFamily: 'Montserrat_700Bold'        
     },
   
   });
