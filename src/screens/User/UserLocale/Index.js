@@ -1,22 +1,49 @@
 import * as React from 'react';
 import { View, StyleSheet, FlatList, Text, TouchableOpacity } from 'react-native';
 
-import en_US from '../../../locales/en_US.json'
-import pt_BR from '../../../locales/pt_BR.json'
-import es_ES from '../../../locales/es_ES.json'
+
+const en = {
+  'hello': 'hello',
+  'pt_br': 'Brazilian Portuguese',
+  'es': 'Spanish',
+  'en': 'English',
+  'open_menu': 'Open Menu',
+  'home': 'Home',
+  'languages': 'Languages'
+}
+
+const pt_br = {
+  'hello': 'oi',
+  'pt_br': 'Português do Brasil',
+  'es': 'Espanhol',
+  'en': 'Inglês',
+  'open_menu': 'Abrir Menu',
+  'home': 'Início',
+  'languages': 'Línguas'
+}
+
+const es = {
+  'hello': 'hola',
+  'pt_br': 'Portugués Brasileño',
+  'es': 'Español',
+  'en': 'Inglés',
+  'open_menu': 'Menú abierto',
+  'home': 'Inicio',
+  'languages': 'Idiomas'
+}
+
 
 const i18n = (key, lang) => {
   switch(lang) {
     case 'en':
-      return en_US[key]
+      return en[key]
     case 'es':
-      return es_ES[key]
+      return es[key]
     default:
-      return pt_BR[key]
+      return pt_br[key]
   }
 }
 
-const AppContext = React.createContext();
 
 export default function UserLocale() {
 
@@ -24,15 +51,15 @@ export default function UserLocale() {
 
   const langList = [
     {
-      name: 'es_ES',
+      name: 'es',
       value: i18n('es', lang)
     },
     {
-      name: 'en_US',
+      name: 'en',
       value: i18n('en', lang)
     },
     {
-      name: 'pt_BR',
+      name: 'pt_br',
       value: i18n('pt_br', lang)
     }
   ]
